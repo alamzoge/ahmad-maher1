@@ -1,0 +1,97 @@
+الصور الأساسية:
+
+اللوجو: logo1.png
+
+الصورة الكبيرة في أول الموقع: pic1.jpg
+
+صورة عرض الشيف (فطيرة البغاشة): pic2.jpg
+
+قسم الفطائر:
+
+فطيرة كاستر وأوريو حجم صغير: feteer-custard-oreo-small.jpg
+
+فطيرة كاستر وأوريو حجم كبير: feteer-custard-oreo-large.jpg
+
+فطيرة كاستر وموز حشو زبيب: feteer-custard-banana.jpg
+
+فطيرة كاستر مكسرات: feteer-custard-nuts.jpg
+
+فطيرة كاستر ونوتيلا حجم كبير: feteer-custard-nutella.jpg
+
+قسم البسبوسة:
+
+بسبوسة سادة: basbousa-plain.jpg
+
+بسبوسة قشطة: basbousa-qeshta.jpg
+
+بسبوسة سوري: basbousa-syrian.jpg
+
+بسبوسة سوري أوريو: basbousa-syrian-oreo.jpg
+
+قسم الكنافة:
+
+كنافة عثمانلي: konafa-osmanly.jpg
+
+كنافة كريمة: konafa-cream.jpg
+
+كنافة قشطة: konafa-qeshta.jpg
+
+كنافة مانجة: konafa-mango.jpg
+
+كنافة بلورية بالمكسرات: konafa-blouria-nuts.jpg
+
+كنافة مكسرات: konafa-nuts.jpg
+
+قسم الكيك والتورت:
+
+ميني شوكليت كيك: cake-mini-chocolate.jpg
+
+ميني دارك شوكليت كيك: cake-mini-dark-chocolate.jpg
+
+تورته عجينه سكر: cake-sugar-dough.jpg
+
+تورته مقاس ٤٠*٦٠: cake-40x60.jpg
+
+تورته قلب: cake-heart.jpg
+
+شوكليت كيك: cake-chocolate.jpg
+
+سيزون كيك: cake-season.jpg
+
+مولتن كيك: cake-molten.jpg
+
+قسم الجاتوهات:
+
+جاتوه هرم شوكليت: gateau-pyramid-chocolate.jpg
+
+جاتوه سوبر شوكليت: gateau-super-chocolate.jpg
+
+جاتوه سوبر سويسرول: gateau-super-swiss-roll.jpg
+
+جاتوه سوبر هوهوز وايت: gateau-super-hohos-white.jpg
+
+جاتوه هوهوز لوتس: gateau-hohos-lotus.jpg
+
+جاتوه سوبر لوتس: gateau-super-lotus.jpg
+
+جاتوه لوكس: gateau-lux.jpg
+
+جاتوه فادج: gateau-fudge.jpg
+
+جاتوه سوبر ريد فيلفيت: gateau-super-red-velvet.jpg
+
+ديسباسيتو (جاتوه): gateau-despacito.jpg
+
+قسم المعلبات والطواجن:
+
+عزيزة: bowl-aziza.jpg
+
+ميلفاي: bowl-mille-feuille.jpg
+
+رز بلبن: bowl-rice-milk.jpg
+
+كب موس: bowl-cup-mousse.jpg
+
+ديسباسيتو (طاجن): bowl-despacito.jpg
+
+بليلة بالمكسرات: bowl-belila-nuts.jpg
