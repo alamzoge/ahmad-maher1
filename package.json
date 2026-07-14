@@ -1,0 +1,15 @@
+{
+  "name": "ahmad-maher-sweets",
+  "version": "1.0.0",
+  "description": "أحمد ماهر | حلواني وصانع فطير فاخر",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "build": "echo 'No build step required'",
+    "dev": "node server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

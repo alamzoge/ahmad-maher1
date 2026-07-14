@@ -444,7 +444,7 @@
     <!-- Navbar -->
     <nav>
         <div class="brand-container">
-            <img src="logo1.png" alt="Logo" class="brand-logo" onerror="this.style.display='none'">
+            <img src="logo1.PNG" alt="Logo" class="brand-logo" onerror="this.style.display='none'">
             <div class="logo-text classic-font">
                 <span style="font-size: 1.4rem; display:inline; font-weight:700;">أحمد ماهر</span>
                 <span>صناع الحلوى والفطير</span>
@@ -516,8 +516,11 @@
         </div>
         <div class="footer-col">
             <h3 class="classic-font">تواصلوا معنا</h3>
-            <p>📍 السنبلاوين، بجوار مستشفى الحياة</p>
-            <p>📞 خدمة العملاء: 01025514554</p>
+            <p>📍 السنبلاوين كوبري هندسة الري</p>
+            <p>📍 السنبلاوين القنطره اخر سور الحديقه</p>
+            <p>📍 المنصوره ش عبد السلام عارف امام بوابه الامن المركزي</p>
+            <p>📞 خدمة العملاء: <a href="tel:01025514554" dir="ltr" style="text-decoration: underline; font-weight: bold; margin-left: 10px;">01025514554</a> <a href="https://wa.me/201025514554" target="_blank" rel="noopener noreferrer" style="color: #25D366; font-weight: bold; text-decoration: underline;">واتساب</a></p>
+            <p>📞 للشكاوي: <a href="tel:01090899691" dir="ltr" style="text-decoration: underline; font-weight: bold; margin-left: 10px;">01090899691</a> <a href="https://wa.me/201090899691" target="_blank" rel="noopener noreferrer" style="color: #25D366; font-weight: bold; text-decoration: underline;">واتساب</a></p>
         </div>
     </footer>
 
@@ -596,51 +599,50 @@
 
         const products = [
             // قسم الفطائر
-            { id: 1, category: "feteer", price: 15, img: "feteer-custard-oreo-small.jpg", name: "فطيرة كاستر وأوريو حجم صغير" },
-            { id: 2, category: "feteer", price: 30, img: "feteer-custard-oreo-large.jpg", name: "فطيرة كاستر وأوريو حجم كبير" },
-            { id: 4, category: "feteer", price: 25, img: "feteer-custard-nuts.jpg", name: "فطيرة كاستر مكسرات" },
-            { id: 5, category: "feteer", price: 35, img: "feteer-custard-nutella.jpg", name: "فطيرة كاستر ونوتيلا حجم كبير" },
+            { id: 1, category: "feteer", price: 15, img: "feteer-custard-oreo-small.jpeg", name: "فطيرة كاستر وأوريو حجم صغير" },
+            { id: 2, category: "feteer", price: 30, img: "feteer-custard-oreo-large.jpeg", name: "فطيرة كاستر وأوريو حجم كبير" },
+            { id: 4, category: "feteer", price: 25, img: "feteer-custard-nuts.jpeg", name: "فطيرة كاستر مكسرات" },
+            { id: 5, category: "feteer", price: 35, img: "feteer-custard-nutella.jpeg", name: "فطيرة كاستر ونوتيلا حجم كبير" },
 
             // قسم البسبوسة
-            { id: 6, category: "basbousa", price: 150, img: "basbousa-plain.jpg", name: "بسبوسة سادة" },
-            { id: 7, category: "basbousa", price: 180, img: "basbousa-qeshta.jpg", name: "بسبوسة قشطة" },
-            { id: 8, category: "basbousa", price: 180, img: "basbousa-syrian.jpg", name: "بسبوسة سعودي" },
-            { id: 9, category: "basbousa", price: 180, img: "basbousa-syrian-oreo.jpg", name: "بسبوسة سعودي أوريو" },
+            { id: 6, category: "basbousa", price: 150, img: "basbousa-plain.jpeg", name: "بسبوسة سادة" },
+            { id: 7, category: "basbousa", price: 180, img: "basbousa-qeshta.jpeg", name: "بسبوسة قشطة" },
+            { id: 8, category: "basbousa", price: 180, img: "basbousa-syrian.jpeg", name: "بسبوسة سعودي" },
+            { id: 9, category: "basbousa", price: 180, img: "basbousa-syrian-oreo.jpeg", name: "بسبوسة سعودي أوريو" },
 
             // قسم الكنافة
-            { id: 10, category: "konafa", price: 180, img: "konafa-osmanly.jpg", name: "كنافة عثمانلي" },
-            { id: 11, category: "konafa", price: 200, img: "konafa-cream.jpg", name: "كنافة كريمة" },
-            { id: 13, category: "konafa", price: 200, img: "konafa-mango.jpg", name: "كنافة مانجة" },
-            { id: 14, category: "konafa", price: 350, img: "konafa-blouria-nuts.jpg", name: "كنافة بلورية بالمكسرات" },
+            { id: 10, category: "konafa", price: 180, img: "konafa-osmanly.jpeg", name: "كنافة عثمانلي" },
+            { id: 11, category: "konafa", price: 200, img: "konafa-cream.jpeg", name: "كنافة كريمة" },
+            { id: 13, category: "konafa", price: 200, img: "konafa-mango.jpeg", name: "كنافة مانجة" },
+            { id: 14, category: "konafa", price: 350, img: "konafa-blouria-nuts.jpeg", name: "كنافة بلورية بالمكسرات" },
 
             // قسم الكيك (بدون سعر محدد - يتم عرض "عند التواصل")
-            { id: 16, category: "cakes", price: 0, priceDisplay: "عند التواصل", img: "cake-mini-chocolate.jpg", name: "ميني شوكليت كيك" },
-            { id: 17, category: "cakes", price: 0, priceDisplay: "عند التواصل", img: "cake-mini-dark-chocolate.jpg", name: "ميني دارك شوكليت كيك" },
-            { id: 18, category: "cakes", price: 0, priceDisplay: "عند التواصل", img: "pic3.jpg", name: "تورته عجينه سكر" },
-            { id: 19, category: "cakes", price: 0, priceDisplay: "عند التواصل", img: "cake-40x60.jpg", name: "تورته مقاس ٤٠*٦٠" },
-            { id: 20, category: "cakes", price: 0, priceDisplay: "عند التواصل", img: "cake-heart.jpg", name: "تورته قلب" },
-            { id: 21, category: "cakes", price: 0, priceDisplay: "عند التواصل", img: "cake-chocolate.jpg", name: "شوكليت كيك" },
-            { id: 22, category: "cakes", price: 0, priceDisplay: "عند التواصل", img: "cake-season.jpg", name: "سيزون كيك" },
-            { id: 23, category: "cakes", price: 0, priceDisplay: "عند التواصل", img: "cake-molten.jpg", name: "مولتن كيك" },
+            { id: 16, category: "cakes", price: 0, priceDisplay: "عند التواصل", img: "cake-mini-chocolate.jpeg", name: "ميني شوكليت كيك" },
+            { id: 17, category: "cakes", price: 0, priceDisplay: "عند التواصل", img: "cake-mini-dark-chocolate.jpeg", name: "ميني دارك شوكليت كيك" },
+            { id: 19, category: "cakes", price: 0, priceDisplay: "عند التواصل", img: "cake-40x60.jpeg", name: "تورته مقاس ٤٠*٦٠" },
+            { id: 20, category: "cakes", price: 0, priceDisplay: "عند التواصل", img: "cake-heart.jpeg", name: "تورته قلب" },
+            { id: 21, category: "cakes", price: 0, priceDisplay: "عند التواصل", img: "cake-chocolate.jpeg", name: "شوكليت كيك" },
+            { id: 22, category: "cakes", price: 0, priceDisplay: "عند التواصل", img: "cake-season.jpeg", name: "سيزون كيك" },
+            { id: 23, category: "cakes", price: 0, priceDisplay: "عند التواصل", img: "cake-molten.jpeg", name: "مولتن كيك" },
 
             // قسم الجاتوهات
-            { id: 24, category: "gateaux", price: 30, img: "gateau-pyramid-chocolate.jpg", name: "جاتوه هرم شوكليت" },
-            { id: 25, category: "gateaux", price: 30, img: "gateau-super-chocolate.jpg", name: "جاتوه سوبر شوكليت" },
-            { id: 26, category: "gateaux", price: 30, img: "gateau-super-swiss-roll.jpg", name: "جاتوه سوبر سويسرول" },
-            { id: 27, category: "gateaux", price: 30, img: "gateau-super-hohos-white.jpg", name: "جاتوه سوبر هوهوز وايت" },
-            { id: 28, category: "gateaux", price: 30, img: "gateau-hohos-lotus.jpg", name: "جاتوه هوهوز لوتس" },
-            { id: 29, category: "gateaux", price: 25, img: "gateau-super-lotus.jpg", name: "جاتوه سوبر لوتس" },
-            { id: 30, category: "gateaux", price: 30, img: "gateau-lux.jpg", name: "جاتوه لوكس" },
-            { id: 31, category: "gateaux", price: 50, img: "gateau-fudge.jpg", name: "جاتوه فادج" },
-            { id: 32, category: "gateaux", price: 40, img: "gateau-super-red-velvet.jpg", name: "جاتوه سوبر ريد فيلفيت" },
-            { id: 33, category: "gateaux", price: 50, img: "gateau-despacito.jpg", name: "ديسباسيتو" },
+            { id: 24, category: "gateaux", price: 30, img: "gateau-pyramid-chocolate.jpeg", name: "جاتوه هرم شوكليت" },
+            { id: 25, category: "gateaux", price: 30, img: "gateau-super-chocolate.jpeg", name: "جاتوه سوبر شوكليت" },
+            { id: 26, category: "gateaux", price: 30, img: "gateau-super-swiss-roll.jpeg", name: "جاتوه سوبر سويسرول" },
+            { id: 27, category: "gateaux", price: 30, img: "gateau-super-hohos-white.jpeg", name: "جاتوه سوبر هوهوز وايت" },
+            { id: 28, category: "gateaux", price: 30, img: "gateau-hohos-lotus.jpeg", name: "جاتوه هوهوز لوتس" },
+            { id: 29, category: "gateaux", price: 25, img: "gateau-super-lotus.jpeg", name: "جاتوه سوبر لوتس" },
+            { id: 30, category: "gateaux", price: 30, img: "gateau-lux.jpeg", name: "جاتوه لوكس" },
+            { id: 31, category: "gateaux", price: 50, img: "gateau-fudge.jpeg", name: "جاتوه فادج" },
+            { id: 32, category: "gateaux", price: 40, img: "gateau-super-red-velvet.jpeg", name: "جاتوه سوبر ريد فيلفيت" },
+            { id: 33, category: "gateaux", price: 50, img: "gateau-despacito.jpeg", name: "ديسباسيتو" },
 
             // قسم المعلبات والطواجن
-            { id: 34, category: "bowls", price: 150, img: "bowl-aziza.jpg", name: "عزيزة" },
-            { id: 35, category: "bowls", price: 35, img: "bowl-mille-feuille.jpg", name: "ميلفاي" },
-            { id: 36, category: "bowls", price: 30, img: "bowl-rice-milk.jpg", name: "رز بلبن" },
-            { id: 37, category: "bowls", price: 35, img: "bowl-cup-mousse.jpg", name: "كب موس" },
-            { id: 39, category: "bowls", price: 60, img: "bowl-belila-nuts.jpg", name: "بليلة بالمكسرات" }
+            { id: 34, category: "bowls", price: 150, img: "bowl-aziza.jpeg", name: "عزيزة" },
+            { id: 35, category: "bowls", price: 35, img: "bowl-mille-feuille.jpeg", name: "ميلفاي" },
+            { id: 36, category: "bowls", price: 30, img: "bowl-rice-milk.jpeg", name: "رز بلبن" },
+            { id: 37, category: "bowls", price: 35, img: "bowl-cup-mousse.jpeg", name: "كب موس" },
+            { id: 39, category: "bowls", price: 60, img: "bowl-belila-nuts.jpeg", name: "بليلة بالمكسرات" }
         ];
 
         let currentFilter = "all";

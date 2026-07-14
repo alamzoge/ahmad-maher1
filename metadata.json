@@ -1,0 +1,8 @@
+{
+  "name": "أحمد ماهر | حلواني وصانع فطير فاخر",
+  "description": "حلواني وصانع فطير فاخر يقدم أرقى الحلويات الشرقية والفطائر مع سلة طلبات وتواصل فوري عبر واتساب",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
